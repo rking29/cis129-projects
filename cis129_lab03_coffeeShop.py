@@ -4,7 +4,7 @@
 
 # prints the shop name and asks the user for the number of products bought
 print("***************************************")
-print("My Coffee and Muffin Shop")
+print("Coffee Shop")
 coffees = int(input("Number of coffees bought?\n"))
 muffins = int(input("Number of muffins bought?\n"))
 teas = int(input("Number of teas bought?\n"))
@@ -20,7 +20,7 @@ total = cost + tax
 
 # prints the receipt
 print("***************************************")
-print("My Coffee and Muffin Shop Receipt")
+print("Coffee Shop Receipt")
 if coffees == 1:
     print(coffees, "Coffee at $5 each: $", coffees * 5)
 if coffees > 1:
